@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="etc.a0la0.glcamera.MainActivity">
+
+    <Button
+        android:id="@+id/edgeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edge_detection"/>
+
+    <Button
+        android:id="@+id/blurButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/extreme_blur"/>
+
+    <Button
+        android:id="@+id/sharpenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sharpen"/>
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"/>
+
+    <Button
+        android:id="@+id/graphicsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="graphics"/>
+
+    <Button
+        android:id="@+id/graphics3dButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3D graphics"/>
+
+    <Button
+        android:id="@+id/graphicsSwipeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="swipe graphics"/>
+
+</LinearLayout>
